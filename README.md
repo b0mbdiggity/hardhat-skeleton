@@ -23,7 +23,7 @@ npx hardhat test
 
 ### Deploy Contract
 
-> network = sepolia | ethereum | amoy | playdappdev
+> network = sepolia | ethereum | amoy
 
 ```zsh
 npx hardhat deploy --network <network> --tags <tag> --reset
@@ -37,7 +37,7 @@ npx hardhat --network <network> etherscan-verify --api-key {MY API KEY} --licens
 
 ## Call Contract Method
 
-> network = sepolia | ethereum | amoy | playdappdev
+> network = sepolia | ethereum | amoy
 
 #### transaction
 
